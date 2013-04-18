@@ -1,0 +1,13 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:DataBoundApp3.ViewModels"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.Items>
+        <vm:ItemViewModel ID = "0" AItem="A" AItemName ="Apple" ImageURI="/Assets/Apple.jpg" Description="This fruit is a delicious addition to your diet. Eating one each day keeps the doctor away!"/>
+        <vm:ItemViewModel ID = "1" AItem="B" AItemName="Banana" ImageURI="/Assets/Banana.jpg" Description="Monkeys are known to eat this fruit, after they peel it, of course" />
+        <vm:ItemViewModel ID = "2" AItem="C" AItemName ="Carrot" ImageURI="Assets/Carrot.jpg" Description="This vegatable can help to improve your eye sight!"/>
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>
